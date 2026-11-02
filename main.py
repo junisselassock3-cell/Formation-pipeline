@@ -7,4 +7,4 @@ def accueil():
 
 @app.get("/addition")
 def addition(a: int, b: int):
-    return {"resultat": a + b}
+    return {"resultat": a - b}
